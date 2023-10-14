@@ -12,7 +12,7 @@
 */
 
 use App\Commands\DefaultCommand;
-use QuantaQuirk\Foundation\Console\Kernel;
+use QuantaForge\Foundation\Console\Kernel;
 use Symfony\Component\Console\Input\ArrayInput;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\BufferedOutput;

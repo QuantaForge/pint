@@ -33,14 +33,14 @@ use SplFileInfo;
  * THE SOFTWARE.
  */
 
-class QuantaQuirkPhpdocAlignmentFixer implements FixerInterface
+class QuantaForgePhpdocAlignmentFixer implements FixerInterface
 {
     /**
      * {@inheritdoc}
      */
     public function getName(): string
     {
-        return 'QuantaQuirk/quantaquirk_phpdoc_alignment';
+        return 'QuantaForge/quantaforge_phpdoc_alignment';
     }
 
     /**

@@ -3,7 +3,7 @@
 namespace App\Actions;
 
 use App\Factories\ConfigurationResolverFactory;
-use QuantaQuirkZero\Framework\Exceptions\ConsoleException;
+use QuantaForgeZero\Framework\Exceptions\ConsoleException;
 use PhpCsFixer\Runner\Runner;
 
 class FixCode

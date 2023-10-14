@@ -2,7 +2,7 @@
 
 namespace App\ValueObjects;
 
-use QuantaQuirk\Support\Str;
+use QuantaForge\Support\Str;
 use NunoMaduro\Collision\Highlighter;
 use ReflectionClass;
 

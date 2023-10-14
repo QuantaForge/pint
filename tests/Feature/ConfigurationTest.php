@@ -1,6 +1,6 @@
 <?php
 
-use QuantaQuirkZero\Framework\Exceptions\ConsoleException;
+use QuantaForgeZero\Framework\Exceptions\ConsoleException;
 
 it('ensures configuration file is valid', function () {
     [$statusCode, $output] = run('default', [

@@ -2,7 +2,7 @@
 
 namespace App\Actions;
 
-use QuantaQuirk\Console\Command;
+use QuantaForge\Console\Command;
 use PhpCsFixer\Console\Report\FixReport;
 use Symfony\Component\Console\Output\OutputInterface;
 

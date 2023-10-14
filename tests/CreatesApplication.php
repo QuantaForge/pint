@@ -2,14 +2,14 @@
 
 namespace Tests;
 
-use QuantaQuirk\Contracts\Console\Kernel;
+use QuantaForge\Contracts\Console\Kernel;
 
 trait CreatesApplication
 {
     /**
      * Creates the application.
      *
-     * @return \QuantaQuirk\Foundation\Application
+     * @return \QuantaForge\Foundation\Application
      */
     public function createApplication()
     {

@@ -6,7 +6,7 @@ use App\Contracts\PathsRepository;
 use App\Project;
 use App\Repositories\ConfigurationJsonRepository;
 use App\Repositories\GitPathsRepository;
-use QuantaQuirk\Support\ServiceProvider;
+use QuantaForge\Support\ServiceProvider;
 use Symfony\Component\Console\Input\InputInterface;
 
 class RepositoriesServiceProvider extends ServiceProvider

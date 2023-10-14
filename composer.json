@@ -1,5 +1,5 @@
 {
-    "name": "quantaquirk/pint",
+    "name": "quantaforge/pint",
     "description": "An opinionated code formatter for PHP.",
     "keywords": ["php", "format", "formatter", "lint", "linter"],
     "type": "project",
@@ -19,7 +19,7 @@
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^3.34.1",
-        "quantaquirk/view": "^1.0.0",
+        "quantaforge/view": "^1.0.0",
         "laravel-zero/framework": "^10.1.2",
         "mockery/mockery": "^1.6.6",
         "nunomaduro/larastan": "^2.6.4",

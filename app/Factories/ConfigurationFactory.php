@@ -2,7 +2,7 @@
 
 namespace App\Factories;
 
-use App\Fixers\QuantaQuirkPhpdocAlignmentFixer;
+use App\Fixers\QuantaForgePhpdocAlignmentFixer;
 use App\Repositories\ConfigurationJsonRepository;
 use PhpCsFixer\Config;
 use PhpCsFixer\Finder;
@@ -48,8 +48,8 @@ class ConfigurationFactory
             ->setRiskyAllowed(true)
             ->setUsingCache(true)
             ->registerCustomFixers([
-                // QuantaQuirk...
-                new QuantaQuirkPhpdocAlignmentFixer(),
+                // QuantaForge...
+                new QuantaForgePhpdocAlignmentFixer(),
             ]);
     }
 

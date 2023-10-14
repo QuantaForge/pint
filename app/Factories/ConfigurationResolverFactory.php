@@ -17,7 +17,7 @@ class ConfigurationResolverFactory
      * @var array<int, string>
      */
     public static $presets = [
-        'quantaquirk',
+        'quantaforge',
         'per',
         'psr12',
         'symfony',

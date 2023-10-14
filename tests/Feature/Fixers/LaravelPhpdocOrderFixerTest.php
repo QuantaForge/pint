@@ -2,8 +2,8 @@
 
 it('fixes the code', function () {
     [$statusCode, $output] = run('default', [
-        'path' => base_path('tests/Fixtures/fixers/quantaquirk_phpdoc_order.php'),
-        '--preset' => 'quantaquirk',
+        'path' => base_path('tests/Fixtures/fixers/quantaforge_phpdoc_order.php'),
+        '--preset' => 'quantaforge',
     ]);
 
     expect($statusCode)->toBe(1)

@@ -7,7 +7,7 @@ use App\Actions\FixCode;
 use App\Output\ProgressOutput;
 use App\Output\SummaryOutput;
 use App\Repositories\ConfigurationJsonRepository;
-use QuantaQuirk\Support\ServiceProvider;
+use QuantaForge\Support\ServiceProvider;
 use PhpCsFixer\Error\ErrorsManager;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;

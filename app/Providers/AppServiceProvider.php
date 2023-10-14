@@ -2,7 +2,7 @@
 
 namespace App\Providers;
 
-use QuantaQuirk\Support\ServiceProvider;
+use QuantaForge\Support\ServiceProvider;
 use PhpCsFixer\Error\ErrorsManager;
 use Symfony\Component\EventDispatcher\EventDispatcher;
 

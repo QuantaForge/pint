@@ -3,7 +3,7 @@
 it('fixes the code', function () {
     [$statusCode, $output] = run('default', [
         'path' => base_path('tests/Fixtures/fixers/binary_operator_spaces.php'),
-        '--preset' => 'quantaquirk',
+        '--preset' => 'quantaforge',
     ]);
 
     expect($statusCode)->toBe(1)

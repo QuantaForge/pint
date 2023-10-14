@@ -2,7 +2,7 @@
 
 namespace Tests;
 
-use QuantaQuirkZero\Framework\Testing\TestCase as BaseTestCase;
+use QuantaForgeZero\Framework\Testing\TestCase as BaseTestCase;
 
 abstract class TestCase extends BaseTestCase
 {

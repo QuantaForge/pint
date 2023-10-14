@@ -7,7 +7,7 @@ return [
     | Default Command
     |--------------------------------------------------------------------------
     |
-    | QuantaQuirk Zero will always run the command specified below when no command name is
+    | QuantaForge Zero will always run the command specified below when no command name is
     | provided. Consider update the default command for single command applications.
     | You cannot pass arguments to the default command because they are ignored.
     |
@@ -22,7 +22,7 @@ return [
     |
     | This value determines the "paths" that should be loaded by the console's
     | kernel. Foreach "path" present on the array provided below the kernel
-    | will extract all "QuantaQuirk\Console\Command" based class commands.
+    | will extract all "QuantaForge\Console\Command" based class commands.
     |
     */
 
@@ -55,7 +55,7 @@ return [
     */
 
     'hidden' => [
-        QuantaQuirkZero\Framework\Commands\BuildCommand::class,
+        QuantaForgeZero\Framework\Commands\BuildCommand::class,
     ],
 
     /*
@@ -64,26 +64,26 @@ return [
     |--------------------------------------------------------------------------
     |
     | Do you have a service provider that loads a list of commands that
-    | you don't need? No problem. QuantaQuirk Zero allows you to specify
+    | you don't need? No problem. QuantaForge Zero allows you to specify
     | below a list of commands that you don't to see in your app.
     |
     */
 
     'remove' => [
-        // QuantaQuirk...
-        QuantaQuirk\Console\Scheduling\ScheduleRunCommand::class,
-        QuantaQuirk\Console\Scheduling\ScheduleFinishCommand::class,
+        // QuantaForge...
+        QuantaForge\Console\Scheduling\ScheduleRunCommand::class,
+        QuantaForge\Console\Scheduling\ScheduleFinishCommand::class,
 
-        // QuantaQuirkZero...
-        QuantaQuirkZero\Framework\Commands\InstallCommand::class,
-        QuantaQuirkZero\Framework\Commands\MakeCommand::class,
-        QuantaQuirkZero\Framework\Commands\RenameCommand::class,
-        QuantaQuirkZero\Framework\Commands\TestMakeCommand::class,
-        QuantaQuirkZero\Framework\Commands\StubPublishCommand::class,
+        // QuantaForgeZero...
+        QuantaForgeZero\Framework\Commands\InstallCommand::class,
+        QuantaForgeZero\Framework\Commands\MakeCommand::class,
+        QuantaForgeZero\Framework\Commands\RenameCommand::class,
+        QuantaForgeZero\Framework\Commands\TestMakeCommand::class,
+        QuantaForgeZero\Framework\Commands\StubPublishCommand::class,
 
         // NunoMaduro...
-        NunoMaduro\Collision\Adapters\QuantaQuirk\Commands\TestCommand::class,
-        NunoMaduro\QuantaQuirkConsoleSummary\SummaryCommand::class,
+        NunoMaduro\Collision\Adapters\QuantaForge\Commands\TestCommand::class,
+        NunoMaduro\QuantaForgeConsoleSummary\SummaryCommand::class,
 
         // Symfony...
         Symfony\Component\Console\Command\DumpCompletionCommand::class,

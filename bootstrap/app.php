@@ -5,13 +5,13 @@
 | Create The Application
 |--------------------------------------------------------------------------
 |
-| The first thing we will do is create a new QuantaQuirk application instance
-| which serves as the "glue" for all the components of QuantaQuirk, and is
+| The first thing we will do is create a new QuantaForge application instance
+| which serves as the "glue" for all the components of QuantaForge, and is
 | the IoC container for the system binding all of the various parts.
 |
 */
 
-$app = new QuantaQuirkZero\Framework\Application(
+$app = new QuantaForgeZero\Framework\Application(
     dirname(__DIR__)
 );
 
@@ -27,13 +27,13 @@ $app = new QuantaQuirkZero\Framework\Application(
 */
 
 $app->singleton(
-    QuantaQuirk\Contracts\Console\Kernel::class,
+    QuantaForge\Contracts\Console\Kernel::class,
     App\Kernel::class
 );
 
 $app->singleton(
-    QuantaQuirk\Contracts\Debug\ExceptionHandler::class,
-    QuantaQuirk\Foundation\Exceptions\Handler::class
+    QuantaForge\Contracts\Debug\ExceptionHandler::class,
+    QuantaForge\Foundation\Exceptions\Handler::class
 );
 
 /*

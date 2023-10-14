@@ -2,7 +2,7 @@
 
 namespace App\Commands;
 
-use QuantaQuirkZero\Framework\Commands\Command;
+use QuantaForgeZero\Framework\Commands\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
 

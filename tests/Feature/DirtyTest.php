@@ -18,7 +18,7 @@ it('determines dirty files', function () {
 
     expect($statusCode)->toBe(0)
         ->and($output)
-        ->toContain('── QuantaQuirk', ' 1 file');
+        ->toContain('── QuantaForge', ' 1 file');
 });
 
 it('ignores the path argument', function () {
@@ -40,7 +40,7 @@ it('ignores the path argument', function () {
 
     expect($statusCode)->toBe(0)
         ->and($output)
-        ->toContain('── QuantaQuirk', ' 1 file');
+        ->toContain('── QuantaForge', ' 1 file');
 });
 
 it('does not abort when there are no dirty files', function () {
@@ -59,5 +59,5 @@ it('does not abort when there are no dirty files', function () {
 
     expect($statusCode)->toBe(0)
         ->and($output)
-        ->toContain('── QuantaQuirk', ' 0 files');
+        ->toContain('── QuantaForge', ' 0 files');
 });

@@ -2,7 +2,7 @@
 
 namespace App;
 
-use QuantaQuirkZero\Framework\Kernel as BaseKernel;
+use QuantaForgeZero\Framework\Kernel as BaseKernel;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 

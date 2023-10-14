@@ -5,7 +5,7 @@ namespace App\Providers;
 use App\Actions\ElaborateSummary;
 use App\Actions\FixCode;
 use App\Commands\DefaultCommand;
-use QuantaQuirk\Support\ServiceProvider;
+use QuantaForge\Support\ServiceProvider;
 
 class CommandsServiceProvider extends ServiceProvider
 {

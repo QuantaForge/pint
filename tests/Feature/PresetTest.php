@@ -1,13 +1,13 @@
 <?php
 
-it('uses the quantaquirk preset by default', function () {
+it('uses the quantaforge preset by default', function () {
     [$statusCode, $output] = run('default', [
         'path' => base_path('tests/Fixtures/without-issues'),
     ]);
 
     expect($statusCode)->toBe(0)
         ->and($output)
-        ->toContain('── QuantaQuirk');
+        ->toContain('── QuantaForge');
 });
 
 it('may use the PSR 12 preset', function () {
@@ -32,15 +32,15 @@ it('may use the PER preset', function () {
         ->toContain('── PER');
 });
 
-it('may use the QuantaQuirk preset', function () {
+it('may use the QuantaForge preset', function () {
     [$statusCode, $output] = run('default', [
         'path' => base_path('tests/Fixtures/without-issues'),
-        '--preset' => 'quantaquirk',
+        '--preset' => 'quantaforge',
     ]);
 
     expect($statusCode)->toBe(0)
         ->and($output)
-        ->toContain('── QuantaQuirk');
+        ->toContain('── QuantaForge');
 });
 
 it('may use the Symfony preset', function () {

@@ -4,7 +4,7 @@ namespace App\Repositories;
 
 use App\Contracts\PathsRepository;
 use App\Factories\ConfigurationFactory;
-use QuantaQuirk\Support\Str;
+use QuantaForge\Support\Str;
 use Symfony\Component\Process\Process;
 
 class GitPathsRepository implements PathsRepository

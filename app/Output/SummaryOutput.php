@@ -22,7 +22,7 @@ class SummaryOutput
     protected $presets = [
         'per' => 'PER',
         'psr12' => 'PSR 12',
-        'quantaquirk' => 'QuantaQuirk',
+        'quantaforge' => 'QuantaForge',
         'symfony' => 'Symfony',
     ];
 
@@ -88,7 +88,7 @@ class SummaryOutput
      *
      * @param  string  $path
      * @param  \PhpCsFixer\Console\Report\FixReport\ReportSummary  $summary
-     * @return \QuantaQuirk\Support\Collection<int, Issue>
+     * @return \QuantaForge\Support\Collection<int, Issue>
      */
     public function getIssues($path, $summary)
     {

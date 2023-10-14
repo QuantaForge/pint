@@ -10,7 +10,7 @@ it('works without json file', function () {
 });
 
 it('works with a remote json file', function () {
-    $repository = new ConfigurationJsonRepository('https://raw.githubusercontent.com/quantaquirk/pint/main/tests/Fixtures/rules/pint.json', 'psr12');
+    $repository = new ConfigurationJsonRepository('https://raw.githubusercontent.com/quantaforge/pint/main/tests/Fixtures/rules/pint.json', 'psr12');
 
     expect($repository->rules())->toBe([
         'no_unused_imports' => false,
@@ -44,5 +44,5 @@ it('may have finder options', function () {
 it('may have a preset option', function () {
     $repository = new ConfigurationJsonRepository(dirname(__DIR__, 2).'/Fixtures/preset/pint.json', null);
 
-    expect($repository->preset())->toBe('quantaquirk');
+    expect($repository->preset())->toBe('quantaforge');
 });

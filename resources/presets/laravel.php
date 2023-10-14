@@ -208,6 +208,6 @@ return ConfigurationFactory::preset([
         'less_and_greater' => false,
     ],
 
-    // QuantaQuirk
-    'QuantaQuirk/quantaquirk_phpdoc_alignment' => true,
+    // QuantaForge
+    'QuantaForge/quantaforge_phpdoc_alignment' => true,
 ]);
